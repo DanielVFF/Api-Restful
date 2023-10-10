@@ -1,0 +1,40 @@
+{
+  "name": "esqueleto_api_node",
+  "version": "1.0.0",
+  "description": "Api Restful ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/app.tsv"
+  },
+  "keywords": [],
+  "author": "DanielVFF",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielVFF/Api-Restful.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielVFF/Api-Restful/issues"
+  },
+  "homepage": "https://github.com/DanielVFF/Api-Restful#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "swagger": "^0.7.5",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.3",
+    "@types/cookie-parser": "^1.4.4",
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
